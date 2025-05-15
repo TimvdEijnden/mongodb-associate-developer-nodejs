@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-practice",
+  "author": "Tim van den Eijnden",
+  "website": "https://timvandeneijnden.nl",
+  "version": "1.0.0",
+  "description": "MongoDB Associate Developer NodeJS Certification Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js all",
+    "crud": "node index.js crud",
+    "query-results": "node index.js query-results",
+    "indexes": "node index.js indexes",
+    "text-search": "node index.js text-search",
+    "aggregation": "node index.js aggregation",
+    "schema": "node index.js schema"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1"
+  }
+}
